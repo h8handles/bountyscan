@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gobuster dns -d $1 -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --wildcard -q >> dnsGo.txt
+gobuster dns -d $1 -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-1100000.txt --wildcard -q >> dnsGo.txt
 #wordlist needs to be changed or argument needs to be coded for wordlist 
 # find out why wordpress.org needed wildcard but not huffingtonpost.com?????
 

@@ -1,0 +1,17 @@
+subdomain enumeration and gathering for bug bounty
+feel free to fork and contribute
+Created by Garrett.
+
+
+
+
+This script requires the tool ffuf the best way to get it if you have Go compiler installed is through the github at https://github.com/ffuf/ffuf if not there are precompiled binaries on the downloads page (as of 11/27 fuff is not fully integrated)
+
+USAGE*
+
+scan.sh <domain>
+
+
+You can created an alias to the file for easy use 
+
+EX: alias scan="bash ~/Desktop/scripts/scan.sh"

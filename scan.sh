@@ -38,6 +38,8 @@ cat Final.txt | sed "s/^[ \t]*//" | tee -a Final_dns.txt
 
 rm Final.txt
 
+cat Final_dns.txt | sort -u | tee -a final.txt
+
 #cat crt-sh.go.txt | sort -u | tee -a final.txt
 
 #cat final.txt
